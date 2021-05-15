@@ -1,0 +1,55 @@
+<html>
+   <head>
+	<style>
+	#myHeader {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+background-color: #787878;
+#buttons {
+    width: 310px;
+    text-align: center;
+    margin-top: 10px;
+}
+	</style>
+      <script>
+         function add()
+         {
+             x=eval(prompt("enter x value"))
+             y=eval(prompt("enter y value"))
+             z=x+y
+             alert(z)
+         }
+         function sub()
+         {
+             x=eval(prompt("enter x value"))
+             y=eval(prompt("enter y value"))
+             z=x-y
+             alert(z)
+         }
+         function mul()
+         {
+             x=eval(prompt("enter x value"))
+             y=eval(prompt("enter y value"))
+             z=x*y
+             alert(z)
+         }
+         function div()
+         {
+             x=eval(prompt("enter x value"))
+             y=eval(prompt("enter y value"))
+             z=x/y
+             alert(z)
+         }
+      </script>
+      </head>
+   <body>
+     <h1 id = "myHeader">SIMPLE CALCULATOR</h1>
+     <button id="buttons"><input type="button" value="add"  onclick="add()"/></br></br> 
+	    <button id="buttons"><input type="button" value="sub" onclick="sub()"/></br></br>
+            <button id="buttons"><input type="button" value="mul" onclick="mul()"/></br></br>
+            <button id="buttons"><input type="button" value="div" onclick="div()"/> </br></br>
+</body>
+</html>
